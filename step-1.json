@@ -1,14 +1,16 @@
 {
   "description": "Step 1 - General deployment",
   "defaults": {},
-  "roles": ["CREATOR"],
+  "roles": [
+    "CREATOR"
+  ],
   "omniaFromAddr": "0xdc9A20F5a46AFE0802b361076BeFC51f787B2e58",
   "pauseDelay": "0",
   "tokens": {
     "ETH": {
       "pip": {
         "osmDelay": "0",
-        "type": "median",
+        "type": "value",
         "signers": [
           "0x005B903dAdfD96229CBa5EB0e5Aa75C578e8F968",
           "0x25310bC78B9347F97DC664b46E5D4602a6De5f2C",
@@ -30,7 +32,7 @@
     "COL1": {
       "pip": {
         "osmDelay": "0",
-        "type": "median",
+        "type": "value",
         "signers": [
           "0x005B903dAdfD96229CBa5EB0e5Aa75C578e8F968",
           "0x25310bC78B9347F97DC664b46E5D4602a6De5f2C",
